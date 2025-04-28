@@ -10,4 +10,3 @@ spec:
     email: engineering@example.com
   children: 
     - frontend-team
-    - backend-team
