@@ -1,0 +1,13 @@
+apiVersion: backstage.io/v1alpha1
+kind: Group
+metadata:
+  name: engineering
+  description: The engineering department
+spec:
+  type: department
+  profile:
+    displayName: Engineering
+    email: engineering@example.com
+  children: 
+    - frontend-team
+    - backend-team
